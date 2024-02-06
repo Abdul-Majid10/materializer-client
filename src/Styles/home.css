@@ -1,0 +1,89 @@
+.body-fheader.home-body {
+    padding: 0px 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+.hp-sub {
+    text-align: center;
+    font-size: 10rem;
+    color: white;
+}
+.hp-cr-temp {
+    @apply py-8 sm:pb-4 lg:pb-4 md:pt-12 text-center;
+}
+.hp-hading {
+    @apply max-w-3xl mx-auto mb-6;
+}
+.hp-hading h1 {
+    @apply text-5xl md:text-6xl mb-4;
+    line-height: 4rem;
+    font-weight: 900;
+}
+.hp-hading h2 {
+    color: rgb(80, 80, 80);
+    @apply max-w-3xl mx-auto mt-[10px] md:text-xl;
+    line-height: 35px;
+}
+.check-btn {
+    @apply mb-12 mt-10;
+}
+.demo-btn {
+    @apply inline-block py-4 px-6 mr-4 bg-blue-600 hover:bg-blue-700 text-white text-center font-semibold leading-none rounded-3xl transition duration-100;
+}
+.sign-btn {
+    box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.1);
+    @apply inline-block py-4 px-6 bg-white hover:bg-zinc-800 hover:text-white text-center font-semibold leading-none rounded-3xl transition duration-200;
+}
+.sp-fream {
+    color: rgb(80, 80, 80);
+    @apply text-base mb-4;
+}
+.fream {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fream-name {
+    @apply mb-4 mr-6 flex items-center font-semibold text-base;
+}
+.fream-name div {
+    box-shadow: 0px 3px 10px -1px rgba(0, 0, 0, 0.1);
+    @apply w-8 h-8 mr-2 bg-white flex items-center justify-center rounded-full;
+    color: rgb(51, 51, 51);
+}
+.video-temp {
+    @apply relative max-w-3xl mx-auto mb-32;
+}
+.shuffle-temp {
+    @apply hidden lg:block pb-20;
+}
+.shuffle-temp h3 {
+    @apply text-3xl;
+    font-weight: bolder;
+}
+.shuffle-temp p {
+    color: rgb(51, 51, 51);
+    @apply mb-8 text-lg;
+}
+.col-gary {
+    color: rgb(67, 67, 67);
+}
+.build-app-temp{
+    @apply container px-20 mx-auto mb-20;
+}
+.open-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.open-section .sections{
+    display: flex;
+    gap: 30px;
+    max-width: 80%;
+    padding: 5px 50px;
+}
+.open-section .sections div h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 600;
+}

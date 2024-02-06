@@ -1,0 +1,33 @@
+.ug-container{
+    padding: 10px 20px 20px 30px; 
+    margin-bottom: 20px;
+    margin-top: 10px;
+    @apply sm:pr-[50px] sm:pl-[80px]
+}
+.inner-container{
+    border-left: 2px solid rgba(0, 0, 0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0px 10px 20px 0px;
+}
+.ug-list-num div{
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid rgba(0, 0, 0,0.1);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -18px;
+}
+.ug-list-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}

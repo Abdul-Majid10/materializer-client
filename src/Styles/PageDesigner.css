@@ -1,0 +1,15 @@
+.dropable-preview {
+    zoom: 25%;
+}
+
+.dropable-desiner {
+    zoom: 80%;
+}
+.preview-lable{
+    text-align: center;
+    width: 100%;
+    padding: 2px 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.58);
+    font-weight: 400;
+}

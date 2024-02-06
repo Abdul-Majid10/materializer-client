@@ -1,0 +1,39 @@
+.api-collection-create{
+    font-size: large;
+    color: rgb(1, 8, 81);
+    font-weight: bolder;
+    padding: 0px 20px;
+}
+.api-collection-create h3 a{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+.api-collection-create h3 a:hover{
+    text-decoration: none;
+    color: rgb(4, 14, 121);
+}
+.collacollection-name-search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+.api-collection-forms{
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+.api-routes-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.api-form-wrapper{
+    overflow: auto;
+    margin-bottom: 40px;
+}

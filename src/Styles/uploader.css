@@ -1,0 +1,47 @@
+.img-list li {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 7px 20px;
+    background-color: rgb(244, 244, 244);
+    margin-top: 10px;
+}
+.img-list {
+    @apply mid:px-[80px] px-[30px] py-[20px]
+}
+.img-list li div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.img-list li span {
+    font-weight: 400;
+    font-size: large;
+}
+.img-list li div span:first-child {
+    border-right: 1px solid rgb(184, 184, 184);
+    padding-right: 50px;
+}
+.select-fils {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.select-fils span:first-child {
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: rgb(49, 49, 49);
+    padding: 5px 12px;
+    background-color: greenyellow;
+}
+.select-img-h {
+    font-size: large;
+    font-weight: 600;
+}
+
+h2.select-img-h {
+    padding: 0 40px;
+}

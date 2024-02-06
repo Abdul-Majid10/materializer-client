@@ -1,0 +1,11 @@
+.login-form,.signUp-form{
+    @apply relative bg-white px-6 pt-10 pb-9 shadow-xl mx-auto w-full max-w-lg rounded-2xl;
+}
+.text-field,.your-profile{
+    @apply w-9/12;
+}
+@media screen and (max-width:700px) {
+    .text-field,.your-profile{
+        @apply w-full;
+    }
+}

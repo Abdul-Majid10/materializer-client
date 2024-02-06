@@ -1,0 +1,44 @@
+.collec-list {
+    padding: 5px 10px;
+    width: 100%;
+}
+.collec-list ul li {
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collec-list ul li:nth-child(odd) {
+    background-color: rgba(215, 215, 215, 0.2);
+}
+.collec-list ul li:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.collec-list ul li div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.collec-list ul li div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.active-project-list{
+    border-left: 5px solid rgb(77, 221, 91);
+}
+.not-active-project-list{
+    border-left: 5px solid rgba(0, 0, 0,0.4);
+}
+.active-project,.not-active-project{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+.active-project:hover,.not-active-project:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}

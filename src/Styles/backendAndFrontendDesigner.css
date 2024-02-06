@@ -1,0 +1,140 @@
+.side-menu {
+    @apply block p-1 mid:w-[100%] w-[90%] rounded-md hover:bg-gray-700 transition duration-200 text-center;
+}
+.side-menu.active {
+    @apply bg-gray-700;
+}
+.icons-title{
+    @apply text-[9px];
+}
+.backend-menu, .media-menu, .project-menu, .frontend-menu {
+    position: fixed;
+    top: 55px;
+    left: -93px;
+    display: flex;
+    @apply text-gray-100 h-screen mid:left-0 mid:max-w-[82px];
+    transition-property: left;
+    transition-duration: 0.5s;
+}
+.backend-menu-sc, .frontend-menu-sc, .media-menu-sc, .project-menu-sc{
+    left: 0;
+}
+.menu-holder{
+    @apply h-screen mid:hidden block;
+    cursor: pointer;
+    margin-left: -17px;
+}
+.menu-holder div{
+    width: 30px;
+    height: 30px;
+    background-color: #1f2937;
+    margin-top: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:rotate(0deg);
+    transition-property: transform;
+    transition-duration: 0.2s;
+}
+.menu-holder-slide div{
+    transform:rotate(180deg);
+}
+.body-fheader-fsidebar{
+    margin-top: 57px;
+    flex-grow: 1;
+    @apply mid:ml-[82px];
+}
+.body-fsidebar{
+    @apply mid:ml-[82px];
+}
+
+.body-fheader{
+    margin-top: 57px;
+}
+.collection-form, .project-form, .page-form{
+    border-radius: 5px;
+    border: 1px solid rgb(209, 208, 208);
+    @apply mx-[30px] lg:mx-[100px] mt-[10px] mb-[25px]; 
+}
+.c-collection, .c-project, .c-page{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-between;
+}
+.c-collection h3, .c-project h3, .c-page h3 {
+    width: 100%;
+    font-size: large;
+    font-weight: 500;
+    padding: 3px 10px;
+    background-color:  rgba(0, 0, 0, 0.1);
+}
+.c-collection .text-field-box, .c-project .text-field-box, .c-page .text-field-box{
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+}
+.c-page .text-field-box{
+    gap: 20px;
+}
+.c-collection .text-field, .c-project .text-field, .c-page .text-field{
+    width: 90%;
+}
+.c-collection .btns, .c-project .btns, .c-page .btns{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color:  rgba(0, 0, 0, 0.1);
+}
+.c-collection .buttons, .c-project .buttons, .c-page .buttons{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  rgba(0, 0, 0, 0.1);
+}
+.c-collection .center-buttons, .c-project .center-buttons, .c-page .center-buttons{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color:  rgba(0, 0, 0, 0.1);
+    @apply justify-center
+}
+.c-collection .center-buttons button, .c-project .center-buttons button, .c-page .center-buttons button{
+    width: 20%;
+}
+.env-btns{
+    justify-content: center !important;
+}
+.env-btns button{
+    @apply px-6;
+}
+.c-collection .c-att,.c-project .c-att, .c-page .c-att{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 5px 20px;
+}
+.c-collection .m-att, .c-project .m-att, .c-page .m-att{
+    text-align: center;
+    margin-top: 30px;
+}
+.c-collection .m-att span, .c-project .m-att span, .c-page .m-att span{
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    gap: 10px;
+    font-size: large;
+    transition-property:background-color ;
+    transition-duration: 0.2s;
+}
+.c-collection .m-att span:hover, .c-project .m-att span:hover, .c-page .m-att span:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
