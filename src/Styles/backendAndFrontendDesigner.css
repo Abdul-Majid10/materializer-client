@@ -17,6 +17,7 @@
     transition-duration: 0.5s;
 }
 .backend-menu-sc, .frontend-menu-sc, .media-menu-sc, .project-menu-sc{
+    z-index: 2;
     left: 0;
 }
 .menu-holder{

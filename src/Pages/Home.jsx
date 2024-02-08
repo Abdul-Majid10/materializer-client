@@ -38,7 +38,7 @@ function Home() {
             <div className="body-fheader home-body">
                 <div className="hp-cr-temp">
                     <div className="hp-hading">
-                        <h1>Create Low Code MERN Apps in minutes</h1>
+                        <h1 className="text-4xl md:text-6xl text-center mb-9 font-bold  leading-tight">Create Low Code MERN Apps in minutes</h1>
                         <h2>
                             Materializer gives you 200+ fully responsive UI components and allows you to create apis visually to get you
                             started. You don't have to be a designer to create attractive templates!
@@ -90,21 +90,21 @@ function Home() {
                     <div className="hidden lg:block absolute h-24 w-20 bottom-[8rem] right-0 -mr-20 mb-31 rounded-bl-xl rounded-tr-[6rem] bg-red-400"></div>
                     <div className="hidden lg:block absolute h-24 w-20 bottom-0 right-0 -mr-20 mb-2 rounded-xl bg-green-50"></div>
 
-                    <div className="sm:px-8 pt-4 sm:pt-9 w-full relative h-[500px]">
+                    <div className="sm:px-8 pt-4 sm:pt-9 w-full relative">
                         <video
                             ref={(ref) => (videoRefs.current[0] = ref)}
                             loop
                             autoPlay
                             controls
                             src="https://res.cloudinary.com/dzagwkseq/video/upload/v1684431804/de_v4imq9.mov"
-                            className="rounded-xl w-full h-full"></video>
+                            className="rounded-xl w-full"></video>
                     </div>
                 </div>
 
                 <section className="pb-20 overflow-hidden">
                     <div className="container px-4 mx-auto">
                         <div className=" mb-12 md:mb-20 xl:mb-40 text-center">
-                            <h2 className="max-w-3xl mx-auto mb-4 text-5xl md:text-6xl font-bold leading-tight">
+                            <h2 className="text-4xl md:text-6xl text-center mb-9 font-bold  leading-tight">
                                 Build stunning layouts quickly
                             </h2>
                             <p className="max-w-2xl mx-auto md:text-lg text-center leading-loose col-gary">
@@ -710,7 +710,7 @@ function Home() {
                     <div className="bg-white px-10 py-8 rounded-md">
                         <div className="max-w-3xl mx-auto text-center">
                             <div className="mb-[20px]">TOP FEATURES</div>
-                            <h1 className="text-5xl md:text-6xl text-center mb-9 font-bold  leading-tight">
+                            <h1 className="text-4xl md:text-6xl text-center mb-9 font-bold  leading-tight">
                                 Build websites fast.
                             </h1>
                             <h2 className="max-w-prose mx-auto mb-10 md:text-lg text-center  leading-loose col-gary">
@@ -748,7 +748,7 @@ function Home() {
 
                 <section className="container px-4 mx-auto mb-20">
                     <div className="max-w-3xl mx-auto">
-                        <h2 className=" text-5xl md:text-6xl text-center mb-6 font-bold  leading-tight">
+                        <h2 className="text-4xl md:text-6xl text-center mb-6 font-bold  leading-tight">
                             200+ of excellent UI&nbsp;Components And Api Desiner
                         </h2>
                         <p className="max-w-prose mx-auto mb-10 md:text-lg text-center  leading-loose col-gary">
@@ -761,7 +761,7 @@ function Home() {
                 <div className="w-full top-0 left-0 bg-[#1f2937]  py-[5rem]">
                     <div className="relative container px-4 mx-auto">
                         <div className=" max-w-4xl mx-auto mb-12 lg:mb-10 text-center">
-                            <h2 className="text-5xl md:text-6xl mb-5 text-white font-bold leading-tight">
+                            <h2 className="text-4xl md:text-6xl mb-5 text-white font-bold leading-tight">
                                 The easiest way to create beautiful templates and apis
                             </h2>
                         </div>

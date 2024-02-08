@@ -14,11 +14,6 @@
 .hp-hading {
     @apply max-w-3xl mx-auto mb-6;
 }
-.hp-hading h1 {
-    @apply text-5xl md:text-6xl mb-4;
-    line-height: 4rem;
-    font-weight: 900;
-}
 .hp-hading h2 {
     color: rgb(80, 80, 80);
     @apply max-w-3xl mx-auto mt-[10px] md:text-xl;
@@ -86,4 +81,17 @@
     margin-bottom: 15px;
     font-size: 30px;
     font-weight: 600;
+}
+@media screen and (max-width: 700px) {
+    .build-app-temp{
+        padding: 0;
+        margin: 10px 0 10px 0;
+    }
+    .open-section{
+        flex-wrap: wrap;
+    }
+    .open-section .sections{
+        max-width: 100%;
+        padding: 5px 0;
+    }
 }

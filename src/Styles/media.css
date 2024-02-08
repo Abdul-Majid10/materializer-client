@@ -19,7 +19,6 @@
     @apply h-[76vh] overflow-y-auto;
 }
 .ml-img-info, .ml-img-info.always {
-    z-index: 99;
     width: 100%;
     position: relative;
 }
